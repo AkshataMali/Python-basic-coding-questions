@@ -1,0 +1,8 @@
+def ballComesToRest(height):
+    bounces = 0  #1
+
+    while height >= 0:
+        bounces = bounces + 1          # bounces += 1 
+        height = height - (10/100)   # height =- (10/100)
+    return bounces - 1
+print(ballComesToRest(10)) 
